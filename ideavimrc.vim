@@ -8,9 +8,10 @@ let g:WhichKeyDesc_ideavim                                       = "<leader>i +I
 let g:WhichKeyDesc_ideavim_edit                                  = "<leader>ie Edit .ideavimrc"
 map <leader>ie :e ~/.ideavimrc<cr>
 
-" Reload the ~/.ideavimrc file (Note this only seem to work if you are inside the .ideavimrc file)
+" Reload the ~/.ideavimrc file
 let g:WhichKeyDesc_ideavim_reload                                = "<leader>ir Reload IdeaVim"
-map <leader>ir <Action>(IdeaVim.ReloadVimRc.reload)
+map <leader>ir :source ~/.ideavimrc<CR>
+" map <leader>ir <Action>(IdeaVim.ReloadVimRc.reload) " Only works if you are inside .ideavimrc file
 
 " Enable tracking of action IDs
 " TIP: Do the command :actionlist to see full list of actions (includes installed plugins' actions)

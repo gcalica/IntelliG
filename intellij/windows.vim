@@ -17,3 +17,7 @@ let g:WhichKeyDesc_windows_next_project_window = "<leader>wp Next Project"
 map <leader>wp <Action>(NextWindow)
 let g:WhichKeyDesc_windows_previous_project_window = "<leader>wP Previous Project"
 map <leader>wP <Action>(PreviousProjectWindow)
+
+" (macOS Only?) Merges all project windows into one window, making them like tabs
+let g:WhichKeyDesc_windows_merge_all_project_windows = "<leader>wm Merge All Project Windows"
+map <leader>wm <Action>(MergeAllWindowsAction)
