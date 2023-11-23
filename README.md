@@ -14,18 +14,18 @@ and the power in code editing it brings, but I hated trying to find and configur
 functionality that IntelliJ already provided out of the box despite already using a distribution to start with. 
 I didn't think the time and effort investment to maintain a neovim config was worth it for me personally. Which I know
 is kinda ironic when this IdeaVim config is pretty big and did take me awhile. But to be fair, this is just configuring
-keybinds. Whereas in vim, I had to configure both keybinds and wrestle with setting up functionality. Then I discovered
+keybinds. Whereas in neovim, I had to configure both keybinds and wrestle with setting up functionality. Then I discovered
 IdeaVim and switched back to IntelliJ.
 
 The amazing thing with using IntelliJ + IdeaVim is that functionality is already provided by the IDE, you just map 
 keybinds to these actions. And if you don't feel like mapping it, you can just use the default IDE keybindings. 
 And if you don't feel like remembering every single keybind, especially for infrequent actions, you can always fallback
-to using the GUI with your mouse. Or use the holy feature: Double Shift.
+to using the GUI with your mouse. Or use the holy feature: Search Anywhere (Double Shift).
 
 Although I did set many mappings, my goal is not to map every single action. There are even default IntelliJ keybinds 
-I prefer to use over some of my own mappings that I had set. I use a combination of the default IDE keybindings, IdeaVim
+I prefer to use over some of my own mappings that I had set. I use a combination of the default IDE keybindings, my IdeaVim
 mappings, vim's own keybinds, and finally my mouse. If you need a config that maps even more actions provided by 
-IntelliJ, I recommend checking out [Intellimacs](https://github.com/MarcoIeni/intellimacs).
+IntelliJ for a true keyboard and home row-centric experience, I recommend checking out [Intellimacs](https://github.com/MarcoIeni/intellimacs).
 
 # Usage
 Just looking around for inspiration? See [File Structure](#file-structure) to see how I organized the files. 
@@ -34,7 +34,7 @@ You might find some useful actions for yourself.
 Don't have your own vim/ideavimrc setup for IdeaVim and can't be bothered to create one? Just want an out-of-the-box 
 config to build on top of? See [installation](#installation) on how to install my configuration.
 
-See [Configuration][#configuration] on how to customize the setup like disabling/configuring plugins and modifying/ 
+See [Configuration](#configuration) on how to customize the setup like disabling/configuring plugins and modifying/ 
 adding keybindings.
 
 # File Structure

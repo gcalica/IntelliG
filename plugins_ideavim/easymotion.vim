@@ -7,6 +7,19 @@
 " Quicker navigation, default prefix is mapleader
 set easymotion
 
+" Search with f/F motion
+let g:WhichKeyDesc_easymotion_search_forward                     = "<leader>f EasySearch Forward"
+map <leader>f <Plug>(easymotion-f)
+let g:WhichKeyDesc_easymotion_search_backward                    = "<leader>F EasySearch Backward"
+map <leader>F <Plug>(easymotion-F)
+
+" Search with j/k motion
+let g:WhichKeyDesc_easymotion_search_line_down                   = "<leader>j EasySearch Line Down"
+map <leader>j <Plug>(easymotion-j)
+let g:WhichKeyDesc_easymotion_search_line_up                     = "<leader>k EasySearch Line Up"
+map <leader>k <Plug>(easymotion-k)
+
+
 "" Which-Key mapping descriptions
 " Disable the description
 let g:WhichKeyDesc_easymotion_prefix                             = "<leader><leader>"
