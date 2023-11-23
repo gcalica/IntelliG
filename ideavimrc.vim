@@ -21,6 +21,11 @@ map <leader>it <Action>(VimFindActionIdAction)
 let g:WhichKeyDesc_ideavim_action                                = "<leader>ia Execute action"
 map <leader>ia :action<Space>
 
+" View full list of actions
+" :actionlist [optional: pattern]
+let g:WhichKeyDesc_ideavim_actionlist                            = "<leader>iA Actions List"
+map <leader>iA :actionlist<Space>
+
 " Restart IDE
 let g:WhichKeyDesc_restart_ide                                   = "<leader>iR Restart IDE"
 map <leader>iR <Action>(RestartIde)

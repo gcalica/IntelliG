@@ -7,7 +7,6 @@
 " WhichKeyDesc variable
 
 " TODO:
-" Windows/projects
 " Split line
 " Switch "next/prev" actions with maybe chaining with [ or ] instead of n/p
     " Whatever I decide, make sure to stay consistent in all keymaps
@@ -42,24 +41,51 @@ source ~/.intellig/general_settings.vim
 " IdeaVim Settings - https://github.com/JetBrains/ideavim/wiki/set-commands
 source ~/.intellig/ideavim_settings.vim
 
+"" ------------------------------------------------------------------------------------
 """""""""""""""""""""""""
 " Leader-based Mappings "
 """""""""""""""""""""""""
 " Keybinds for dealing with ~/.ideavimrc
 source ~/.intellig/ideavimrc.vim
 
-" Main Menus - File, Edit, View, ...etc. The menus at the top of the IDE
-source ~/.intellig/intellij/main_menus.vim
+" Menus - mappings to various menus
+source ~/.intellig/intellij/menus.vim
 
-" Code Actions - Show Intention Actions, Reformat Code, Refactor, etc...
+" Code Actions - show Intention Actions, reformat Code, refactor, etc...
 source ~/.intellig/intellij/code_actions.vim
 
-" View - View Hover Info, Quick Definition, Find Usages, etc..
+" View - view hover info, quick definition, find usages, etc..
 source ~/.intellig/intellij/view.vim
 
-" Tab Management & Navigation - Navigate and manage editor tabs
+" Tab Management & Navigation - navigate and manage editor tabs
 source ~/.intellig/intellij/tabs.vim
 
+" Window Management & Navigation - navigate and manage project/tool windows
+source ~/.intellig/intellij/windows.vim
+
+" Tool Windows - mappings to various tool windows
+" TODO
+
+" Project - manage projects
+" TODO
+
+" UI - clear search highlight, change colorscheme theme, toggle zen/fullscreen, etc...
+source ~/.intellig/intellij/ui.vim
+
+" Search, Find, Replace - classic find and replace, search everywhere, classes, files, actions, locations, etc...
+source ~/.intellig/intellij/searchfindreplace.vim
+
+" Files - open files
+source ~/.intellig/intellij/files.vim
+
+" Multiple Cursors - emulates the vim-multiple-cursors plugin with IntelliJ's builtin actions
+" <C-n> - select occurrence under cursor. <C-n> to search for next occurrence
+" <C-x> - skip this occurrence
+" <C-p> - unselect this occurrence and go back to previous occurrence
+" <leader><C-n> - select all occurrences under cursor
+source ~/.intellig/intellij/multiple_cursors.vim
+
+"" ------------------------------------------------------------------------------------
 """""""""""""""""""
 " IdeaVim Plugins "
 """""""""""""""""""
@@ -119,3 +145,7 @@ source ~/.intellig/plugins_ideavim/highlightedyank.vim
 " Required IntelliJ Plugin: https://plugins.jetbrains.com/plugin/2162-string-manipulation
 " Able to perform various string manipulation actions, plus some other misc features
 source ~/.intellig/plugins_intellij/string_manipulation.vim
+
+" IntelliJ Plugin Required: https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
+" Rainbowify pairs of brackets
+source ~/.intellig/plugins_intellij/rainbow_brackets.vim

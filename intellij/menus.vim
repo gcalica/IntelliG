@@ -1,6 +1,6 @@
-""""""""""""""
-" Main Menus "
-""""""""""""""
+"""""""""
+" Menus "
+"""""""""
 " File, Edit, View, ...etc. The menus at the top of the IDE
 let g:WhichKeyDesc_main_menus                                    = "<leader>m +Main Menus"
 

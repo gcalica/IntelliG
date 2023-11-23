@@ -8,21 +8,21 @@
 set easymotion
 
 " Search with f/F motion
-let g:WhichKeyDesc_easymotion_search_forward                     = "<leader>f EasySearch Forward"
-map <leader>f <Plug>(easymotion-f)
-let g:WhichKeyDesc_easymotion_search_backward                    = "<leader>F EasySearch Backward"
-map <leader>F <Plug>(easymotion-F)
+let g:WhichKeyDesc_easymotion_search_forward                       = "<leader>ef EasySearch Forward"
+map <leader>ef <Plug>(easymotion-f)
+let g:WhichKeyDesc_easymotion_search_backward                      = "<leader>eF EasySearch Backward"
+map <leader>eF <Plug>(easymotion-F)
 
 " Search with j/k motion
-let g:WhichKeyDesc_easymotion_search_line_down                   = "<leader>j EasySearch Line Down"
-map <leader>j <Plug>(easymotion-j)
-let g:WhichKeyDesc_easymotion_search_line_up                     = "<leader>k EasySearch Line Up"
-map <leader>k <Plug>(easymotion-k)
+let g:WhichKeyDesc_easymotion_search_line_down                     = "<leader>ej EasySearch Line Down"
+map <leader>ej <Plug>(easymotion-j)
+let g:WhichKeyDesc_easymotion_search_line_up                       = "<leader>ek EasySearch Line Up"
+map <leader>ek <Plug>(easymotion-k)
 
 
 "" Which-Key mapping descriptions
 " Disable the description
-let g:WhichKeyDesc_easymotion_prefix                             = "<leader><leader>"
+let g:WhichKeyDesc_easymotion_prefix                               = "<leader><leader>"
 
 " Add custom descriptions - if you want these descriptions, just copy paste them into your ~/.ideavimrc file to override
 " let g:WhichKeyDesc_easymotion_prefix                             = "<leader><leader> EasyMotion Prefix (easymotion)"

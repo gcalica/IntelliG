@@ -24,8 +24,7 @@ to using the GUI with your mouse. Or use the holy feature: Search Anywhere (Doub
 
 Although I did set many mappings, my goal is not to map every single action. There are even default IntelliJ keybinds 
 I prefer to use over some of my own mappings that I had set. I use a combination of the default IDE keybindings, my IdeaVim
-mappings, vim's own keybinds, and finally my mouse. If you need a config that maps even more actions provided by 
-IntelliJ for a true keyboard and home row-centric experience, I recommend checking out [Intellimacs](https://github.com/MarcoIeni/intellimacs).
+mappings, vim's own keybinds, and finally my mouse. 
 
 # Usage
 Just looking around for inspiration? See [File Structure](#file-structure) to see how I organized the files. 
@@ -48,8 +47,8 @@ Which-Key if you want the popup menu of the keybindings. The rest are to your pr
     * [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key)
     * [AceJump](https://plugins.jetbrains.com/plugin/7086-acejump) (required for EasyMotion)
     * [EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion)
-    * [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
-    * [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
+    * [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation) - only has one mapping
+    * [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) - only has one mapping
 2. Clone the repository in your home directory):
 ```
 git clone https://github.com/gcalica/IntelliG ~/.intellig
@@ -79,7 +78,7 @@ The following IntelliJ plugins are supported:
 * String Manipulation
 * Rainbow Brackets
 
-
+# Updating
 # Misc Tips
 * Re-bind your Caps Lock key to function as your Ctrl key to make it easier to press Ctrl. 
 * If you want to utilize some of IntelliJ's default keybindings or even make your own keybindings that involve the function keys:
