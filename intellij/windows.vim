@@ -21,3 +21,11 @@ map <leader>wP <Action>(PreviousProjectWindow)
 " (macOS Only?) Merges all project windows into one window, making them like tabs
 let g:WhichKeyDesc_windows_merge_all_project_windows = "<leader>wm Merge All Project Windows"
 map <leader>wm <Action>(MergeAllWindowsAction)
+
+" Close Project
+let g:WhichKeyDesc_windows_close_project = "<leader>wq Close Project"
+map <leader>wq <Action>(CloseProject)
+
+" Close Other Projects
+let g:WhichKeyDesc_windows_close_other_projects = "<leader>wQ Close OTHER Projects"
+map <leader>wQ <Action>(CloseOtherProjects)
