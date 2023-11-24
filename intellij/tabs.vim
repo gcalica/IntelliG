@@ -11,11 +11,19 @@ map <leader>tq <Action>(CloseContent)
 let g:WhichKeyDesc_tab_close_tab_but_active                   = "<leader>tQ Close OTHER Tabs"
 map <leader>tQ <Action>(CloseAllEditorsButActive)
 
-" Split tab
-let g:WhichKeyDesc_tab_split_vertically                       = "<leader>t\\ Split tab RIGHT"
-map <leader>t\\ <Action>(SplitVertically)
-let g:WhichKeyDesc_tab_split_horizontally                     = "<leader>t- Split tab BELOW"
-map <leader>t- <Action>(SplitHorizontally)
+"" Split tab
+" Split right
+let g:WhichKeyDesc_tab_split_right                            = "<leader>tr SPLIT tab RIGHT"
+map <leader>tr <Action>(SplitVertically)
+let g:WhichKeyDesc_tab_split_move_right                       = "<leader>tR SPLIT and MOVE tab RIGHT"
+map <leader>tR <Action>(MoveTabRight) 
+
+" Split below
+let g:WhichKeyDesc_tab_split_below                            = "<leader>tb SPLIT tab BELOW"
+map <leader>tb <Action>(SplitHorizontally)
+let g:WhichKeyDesc_tab_split_move_below                       = "<leader>tB SPLIT and MOVE tab BELOW"
+map <leader>tB <Action>(MoveTabDown)
+
 
 " Cycle through splits
 let g:WhichKeyDesc_tab_next_split                             = "<leader>tw NEXT Splitter"
@@ -34,8 +42,8 @@ let g:WhichKeyDesc_tab_unsplit_all                            = "<leader>tU Unsp
 map <leader>tU <Action>(UnsplitAll)
 
 " Rotate split
-let g:WhichKeyDesc_tab_rotate_split                           = "<leader>tr Rotate Split"
-map <leader>tr <Action>(ChangeSplitOrientation)
+let g:WhichKeyDesc_tab_rotate_split                           = "<leader>to Change Split ORIENTATION"
+map <leader>to <Action>(ChangeSplitOrientation)
 
 " Switch to split by direction
 let g:WhichKeyDesc_tab_switch_left                            = "<leader>th GO to LEFT split"

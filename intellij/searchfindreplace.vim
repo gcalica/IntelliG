@@ -13,7 +13,7 @@ map <leader>sF <Action>(FindInPath)
 " Replace
 let g:WhichKeyDesc_sfr_replace                                 = "<leader>sr Replace"
 map <leader>sr <Action>(Replace)
-et g:WhichKeyDesc_sfr_replace_path                             = "<leader>sR Replace in Path"
+let g:WhichKeyDesc_sfr_replace_path                             = "<leader>sR Replace in Path"
 map <leader>sR <Action>(ReplaceInPath)
 
 "" Popup Search Menus
@@ -33,4 +33,4 @@ map <leader>sa <Action>(GotoAction)
 
 " Search Symbol
 let g:WhichKeyDesc_sfr_search_menu_symbol                      = "<leader>sS Symbols"
-map <leader>sS <Action>(GotoSymbol
+map <leader>sS <Action>(GotoSymbol)

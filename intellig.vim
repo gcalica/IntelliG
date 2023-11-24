@@ -1,17 +1,3 @@
-
-" description consistency
-" plugin has links
-" test every motion
-" make sure which-key is working properly (FIXME figure out if overriding in vimrc works)
-" gets sourced properly
-" WhichKeyDesc variable
-
-" TODO:
-" Split line
-" Switch "next/prev" actions with maybe chaining with [ or ] instead of n/p
-    " Whatever I decide, make sure to stay consistent in all keymaps
-
-
 """"""""""""
 " IntelliG "
 """"""""""""
@@ -19,23 +5,18 @@
 " https://github.com/gcalica/IntelliG
 
 " TIP: Do the commands :map, :nmap, :vmap to see current keymaps
-
-" I also recommend setting the following IntelliJ keymaps. This allows you to use Ctrl + h/j/k/l " to navigate through
-" the IDE's various menus and popups:
-" Editor Actions, Left: <C-h>
-" Editor Actions, Down: <C-j>
-    " NOTE: In the Quick Documentation popup, <C-j> is set to toggle the preview. If you want to be able to use <C-j>
-    " for navigating down this pop, remove the Ctrl + J (^J) shortcut for "Main Menu, View, Quick Documentation"
-    "
-" Editor Actions, Up: <C-k>
-" Editor Actions, Right: <C-l>
+" TIP: If you want to use the home row keys to go up and down the IDE's menus/popups, set the following keybinds
+    " Editor Actions, Left: <C-h>
+    " Editor Actions, Down: <C-j>
+    " Editor Actions, Up: <C-k>
+    " Editor Actions, Right: <C-l>
 
 "" ------------------------------------------------------------------------------------
 " Non-leader based mappings
 " Feel free to cherry pick which mappings you like here rather than importing this entire module
 source ~/.intellig/global.vim
 
-" General Settings
+" General VIM Settings
 source ~/.intellig/general_settings.vim
 
 " IdeaVim Settings - https://github.com/JetBrains/ideavim/wiki/set-commands
@@ -54,6 +35,12 @@ source ~/.intellig/intellij/menus.vim
 " Code Actions - show Intention Actions, reformat Code, refactor, etc...
 source ~/.intellig/intellij/code_actions.vim
 
+" Search, Find, Replace - classic find and replace, search everywhere, classes, files, actions, locations, etc...
+source ~/.intellig/intellij/searchfindreplace.vim
+
+" Files - open files
+source ~/.intellig/intellij/files.vim
+
 " View - view hover info, quick definition, find usages, etc..
 source ~/.intellig/intellij/view.vim
 
@@ -65,18 +52,11 @@ source ~/.intellig/intellij/windows.vim
 
 " Tool Windows - mappings to various tool windows
 " TODO
+source ~/.intellig/intellij/tools.vim
 
 " Project - manage projects
 " TODO
-
-" UI - clear search highlight, change colorscheme theme, toggle zen/fullscreen, etc...
-source ~/.intellig/intellij/ui.vim
-
-" Search, Find, Replace - classic find and replace, search everywhere, classes, files, actions, locations, etc...
-source ~/.intellig/intellij/searchfindreplace.vim
-
-" Files - open files
-source ~/.intellig/intellij/files.vim
+source ~/.intellig/intellij/projects.vim
 
 " Multiple Cursors - emulates the vim-multiple-cursors plugin with IntelliJ's builtin actions
 " <C-n> - select occurrence under cursor. <C-n> to search for next occurrence
@@ -84,6 +64,16 @@ source ~/.intellig/intellij/files.vim
 " <C-p> - unselect this occurrence and go back to previous occurrence
 " <leader><C-n> - select all occurrences under cursor
 source ~/.intellig/intellij/multiple_cursors.vim
+
+" Bookmarks - manage bookmarks
+" TODO
+source ~/.intellig/intellij/bookmarks.vim 
+
+" Code Folding - collapse/expand regions
+source ~/.intellig/intellij/folding.vim
+
+" UI - clear search highlight, change colorscheme theme, toggle zen/fullscreen, etc...
+source ~/.intellig/intellij/ui.vim
 
 "" ------------------------------------------------------------------------------------
 """""""""""""""""""
@@ -146,6 +136,6 @@ source ~/.intellig/plugins_ideavim/highlightedyank.vim
 " Able to perform various string manipulation actions, plus some other misc features
 source ~/.intellig/plugins_intellij/string_manipulation.vim
 
-" IntelliJ Plugin Required: https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
+" Required IntelliJ Plugin: https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
 " Rainbowify pairs of brackets
 source ~/.intellig/plugins_intellij/rainbow_brackets.vim

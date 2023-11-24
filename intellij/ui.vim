@@ -12,17 +12,22 @@ map <leader>uu :noh<cr>
 let g:WhichKeyDesc_ui_switch_theme                                   = "<leader>ut Switch Theme"
 map <leader>ut <Action>(ChangeLaf)
 
-" Toggle different view modes
-let g:WhichKeyDesc_ui_zen_mode                                       = "<leader>uz Zen Mode"
-map <leader>uz <Action>(ToggleZenMode)
+"" View Modes
+let g:WhichKeyDesc_ui_distraction_free_mode                          = "<leader>ud Distraction Free Mode"
+map <leader>ud <Action>(ToggleDistractionFreeMode)
+
 let g:WhichKeyDesc_ui_fullscreen_mode                                = "<leader>uf Fullscreen Mode"
 map <leader>uf <Action>(ToggleFullScreen)
+
+let g:WhichKeyDesc_ui_zen_mode                                       = "<leader>uz Zen Mode"
+map <leader>uz <Action>(ToggleZenMode)
 
 
 "" Change font size
 " The mappings are prefixed with <leader>us. And then it is hjkl-based.
 " j/k to increase/decrease THIS tab's font size. h/l to increase/decrease ALL tab's font size
 " Note: reset font size only works if you trigger the ALL action
+
 let g:WhichKeyDesc_ui_font_size                                      = "<leader>us +Font Size"
 
 " Increase font size

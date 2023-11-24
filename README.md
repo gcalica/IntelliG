@@ -1,30 +1,21 @@
 # IntelliG
 
 [//]: # (TODO put a screenshot/gif here showcase)
-This is my personal [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) setup and configuration. 
-Maps and categorizes many IntelliJ actions that also includes complete mapping descriptions via Which-Key.  
+This is my personal opionated [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) configuration. 
+Maps and categorizes many IntelliJ actions that also includes complete mapping descriptions via [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key).  
 
-It used to be in a single massive .ideavimrc file. But now that I'm publicly publishing it, I reorganized it be easier
+It used to be a single massive .ideavimrc file. But now that I'm publicly publishing it, I reorganized it be easier
 to customize if people wanted to use and build on top of my setup.
 
-# Some yapping - the story before every cooking recipe
-I've always been an IntelliJ user. Originally I used IntelliJ without IdeaVim and got used to and utilized many of 
-IntelliJ's default keybindings. Then I briefly switched to Neovim using the LazyVim distribution. I liked vim motions
-and the power in code editing it brings, but I hated trying to find and configure all these plugins to get many of the 
-functionality that IntelliJ already provided out of the box despite already using a distribution to start with. 
-I didn't think the time and effort investment to maintain a neovim config was worth it for me personally. Which I know
-is kinda ironic when this IdeaVim config is pretty big and did take me awhile. But to be fair, this is just configuring
-keybinds. Whereas in neovim, I had to configure both keybinds and wrestle with setting up functionality. Then I discovered
-IdeaVim and switched back to IntelliJ.
+# Features
+* Mappings for many helpful and common IntelliJ workflow actions
+* Includes complete [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key) descriptions
+* Supports various [plugins](#plugins)
+* Organized mappings into modules to easily customize which ones you want to keep
+* Override or add your own mappings
 
-The amazing thing with using IntelliJ + IdeaVim is that functionality is already provided by the IDE, you just map 
-keybinds to these actions. And if you don't feel like mapping it, you can just use the default IDE keybindings. 
-And if you don't feel like remembering every single keybind, especially for infrequent actions, you can always fallback
-to using the GUI with your mouse. Or use the holy feature: Search Anywhere (Double Shift).
-
-Although I did set many mappings, my goal is not to map every single action. There are even default IntelliJ keybinds 
-I prefer to use over some of my own mappings that I had set. I use a combination of the default IDE keybindings, my IdeaVim
-mappings, vim's own keybinds, and finally my mouse. 
+### Categorized actions:
+*
 
 # Usage
 Just looking around for inspiration? See [File Structure](#file-structure) to see how I organized the files. 
@@ -36,10 +27,11 @@ config to build on top of? See [installation](#installation) on how to install m
 See [Configuration](#configuration) on how to customize the setup like disabling/configuring plugins and modifying/ 
 adding keybindings.
 
+
 # File Structure
 
 
-# Installation 
+# Installation
 1. For the full setup, install all the following IntelliJ plugins. If you are customizing the setup, see 
 [Configuration](#configuration) to see which plugins are needed for specific modules. Only IdeaVim is truly required.
 Which-Key if you want the popup menu of the keybindings. The rest are to your preference.
@@ -75,8 +67,8 @@ The following IdeaVim [plugins](https://github.com/JetBrains/ideavim/wiki/IdeaVi
 * vim-indent-object - textobject for indentation level
 
 The following IntelliJ plugins are supported:
-* String Manipulation
-* Rainbow Brackets
+* [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
+* [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
 
 # Updating
 # Misc Tips
