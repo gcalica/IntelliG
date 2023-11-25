@@ -5,6 +5,10 @@
 " Note: mappings for switching to next/previous tab is located in ~/.intellig/global.vim
 let g:WhichKeyDesc_tab                                        = "<leader>t +Tabs"
 
+" Switcher 
+let g:WhichKeyDesc_tab_switcher                               = "<leader>tt Switcher"
+map <leader>tt <Action>(Switcher)
+
 " Close tab(s)
 let g:WhichKeyDesc_tab_close_tab                              = "<leader>tq Close Tab"
 map <leader>tq <Action>(CloseContent)

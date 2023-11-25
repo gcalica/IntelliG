@@ -8,19 +8,24 @@ let g:WhichKeyDesc_ui                                                = "<leader>
 let g:WhichKeyDesc_ui_clear_search                                   = "<leader>uu Clear Highlight Search"
 map <leader>uu :noh<cr>
 
+" Toggle line numbers
+let g:WhichKeyDesc_ui_toggle_line_numbers                            = "<leader>ul Toggle Line Numbers"
+map <leader>ul <Action>(EditorToggleShowLineNumbers)
+
 " Switch colorscheme theme
 let g:WhichKeyDesc_ui_switch_theme                                   = "<leader>ut Switch Theme"
 map <leader>ut <Action>(ChangeLaf)
 
 "" View Modes
+" Distraction and Zen Mode now opens with line numbers enabled
 let g:WhichKeyDesc_ui_distraction_free_mode                          = "<leader>ud Distraction Free Mode"
-map <leader>ud <Action>(ToggleDistractionFreeMode)
+map <leader>ud <Action>(EditorToggleShowLineNumbers) <Action>(ToggleDistractionFreeMode) <Action>(EditorToggleShowLineNumbers)
 
 let g:WhichKeyDesc_ui_fullscreen_mode                                = "<leader>uf Fullscreen Mode"
 map <leader>uf <Action>(ToggleFullScreen)
 
 let g:WhichKeyDesc_ui_zen_mode                                       = "<leader>uz Zen Mode"
-map <leader>uz <Action>(ToggleZenMode)
+map <leader>uz <Action>(EditorToggleShowLineNumbers) <Action>(ToggleZenMode) <Action>(EditorToggleShowLineNumbers)
 
 
 "" Change font size
