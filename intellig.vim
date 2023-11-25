@@ -66,8 +66,7 @@ source ~/.intellig/intellij/projects.vim
 source ~/.intellig/intellij/multiple_cursors.vim
 
 " Bookmarks - manage bookmarks
-" TODO
-source ~/.intellig/intellij/bookmarks.vim 
+source ~/.intellig/intellij/bookmarks.vim
 
 " Code Folding - collapse/expand regions
 source ~/.intellig/intellij/folding.vim

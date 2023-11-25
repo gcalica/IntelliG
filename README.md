@@ -71,6 +71,9 @@ The following IntelliJ plugins are supported:
 * [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
 
 # Updating
+
+# Notable Mappings
+
 # Misc Tips
 * Re-bind your Caps Lock key to function as your Ctrl key to make it easier to press Ctrl. 
 * If you want to utilize some of IntelliJ's default keybindings or even make your own keybindings that involve the function keys:
