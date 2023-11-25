@@ -5,7 +5,7 @@
 " Import this in your .ideavimrc file (source ~/.intellig/intellig.vim)
 
 " TIP: Do the commands :map, :nmap, :vmap to see current keymaps
-" TIP: If you want to use the home row keys to go up and down the IDE's menus/popups, set the following keybinds
+" TIP: If you want to use the home row keys to navigate IDE's menus/popups, set the following keybinds:
     " Editor Actions, Left: <C-h>
     " Editor Actions, Down: <C-j>
     " Editor Actions, Up: <C-k>
