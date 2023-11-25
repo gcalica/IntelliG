@@ -50,14 +50,6 @@ source ~/.intellig/intellij/tabs.vim
 " Window Management & Navigation - navigate and manage project/tool windows
 source ~/.intellig/intellij/windows.vim
 
-" Tool Windows - mappings to various tool windows
-" TODO
-source ~/.intellig/intellij/tools.vim
-
-" Project - manage projects
-" TODO
-source ~/.intellig/intellij/projects.vim
-
 " Multiple Cursors - emulates the vim-multiple-cursors plugin with IntelliJ's builtin actions
 " <C-n> - select occurrence under cursor. <C-n> to search for next occurrence
 " <C-x> - skip this occurrence
