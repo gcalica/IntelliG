@@ -63,6 +63,6 @@ map <CR> m`o<Esc>``
 map <C-t> <Action>(ActivateTerminalToolWindow)
 
 " Recent Projects
-let g:WhichKeyDesc_recent_projects                               = "<leader>P Recent Projects"
-map <leader>P <Action>(RecentProjectListGroup)
+let g:WhichKeyDesc_recent_projects                               = "<leader>p Recent Projects"
+map <leader>p <Action>(RecentProjectListGroup)
 
