@@ -1,8 +1,8 @@
 """"""""""""
 " IntelliG "
 """"""""""""
-" My personal setup and config for IntelliJ + IdeaVim
-" https://github.com/gcalica/IntelliG
+" My personal setup and config for IntelliJ + IdeaVim - https://github.com/gcalica/IntelliG
+" Import this in your .ideavimrc file (source ~/.intellig/intellig.vim)
 
 " TIP: Do the commands :map, :nmap, :vmap to see current keymaps
 " TIP: If you want to use the home row keys to go up and down the IDE's menus/popups, set the following keybinds
