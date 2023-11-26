@@ -18,6 +18,10 @@ map <leader>ut <Action>(ChangeLaf)
 
 "" View Modes
 " Distraction and Zen Mode now opens with line numbers enabled
+" TIP: If you add the option -Deditor.distraction.free.mode=true in Help -> Edit Custom VM Options,
+" you can have the code centered by default as it normally would in distraction free/zen mode. Note that toggling
+" distraction free/zen mode with this mode enabled will return things back to normal. But on the next restart of your IDE,
+" it will center it
 let g:WhichKeyDesc_ui_distraction_free_mode                          = "<leader>ud Distraction Free Mode"
 map <leader>ud <Action>(EditorToggleShowLineNumbers) <Action>(ToggleDistractionFreeMode) <Action>(EditorToggleShowLineNumbers)
 
