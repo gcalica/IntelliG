@@ -9,8 +9,8 @@ let g:WhichKeyDesc_windows_toggle_all_windows        = "<leader>ww Toggle All To
 map <leader>ww <Action>(HideAllWindows)
 
 " Jump to the last tool window
-let g:WhichKeyDesc_windows_jump_to_last_window       = "<leader>wW Go to Last Tool Window"
-map <leader>wW <Action>(JumpToLastWindow)
+let g:WhichKeyDesc_windows_jump_to_last_window       = "<leader>wj Jump to Last Tool Window"
+map <leader>wj <Action>(JumpToLastWindow)
 
 " Next/Previous Project
 let g:WhichKeyDesc_windows_next_project_window       = "<leader>wp Next Project"
