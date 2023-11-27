@@ -41,7 +41,7 @@ noremap x "_x
 map <C-o> <Action>(Back)
 map <C-i> <Action>(Forward)
 
-" Extend Selection - one of my favorite eybinds before I learned vim motions
+" Extend Selection - one of my favorite keybinds before I learned vim motions
 " Cant be as specific compared to vim motions, but still very useful to quickly cycle through selection for less
 " mental burden when you just dont wanna think about what motion to press
 map <C-h> <Action>(EditorSelectWord)

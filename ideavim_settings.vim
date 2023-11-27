@@ -8,8 +8,8 @@
 set ideajoin
 
 " Not really sure if these are needed or how exactly they affect my setup, but I put them just incase
-set handler <C-h> a:vim
-set handler <C-j> a:vim
-set handler <C-k> a:vim
-set handler <C-l> a:vim
-set handler <C-c> a:vim " for my ergonomic quick escape
+sethandler <C-h> a:vim
+sethandler <C-j> a:vim
+sethandler <C-k> a:vim
+sethandler <C-l> a:vim
+sethandler <C-c> a:vim " for my ergonomic quick escape
