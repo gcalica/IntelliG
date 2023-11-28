@@ -3,7 +3,7 @@
 """"""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#argtextobj
 " Arguments as a textobject
-" [motion]aa - around argument
+" [motion]aa - an argument
 " [motion]ia - inner argument
 " Typical uses:
 " daa - Delete an argument
@@ -23,4 +23,3 @@ let g:WhichKeyDesc_txtobj_arg_inner = "ia"
 " Add custom descriptions - if you want these descriptions, just copy paste them into your ~/.ideavimrc file to override
 "let g:WhichKeyDesc_txtobj_arg_around = "aa Select around argument (argtextobj)"
 "let g:WhichKeyDesc_txtobj_arg_inner = "ia Select inner argument (argtextobj)"
-

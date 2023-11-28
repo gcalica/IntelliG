@@ -19,4 +19,3 @@ let g:WhichKeyDesc_surround_add = "ys"
 "let g:WhichKeyDesc_surround_change = "cs Change surrounding prefix (vim-surround)"
 "let g:WhichKeyDesc_surround_delete = "ds Delete surrounding prefix (vim-surround)"
 "let g:WhichKeyDesc_surround_add = "ys Add surrounding prefix (vim-surround)"
-

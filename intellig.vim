@@ -81,7 +81,7 @@ source ~/.intellig/plugins_ideavim/which_key.vim
 source ~/.intellig/plugins_ideavim/textobj_indent.vim
 
 " Arguments-based textobject
-" [motion]aa - around argument
+" [motion]aa - an argument
 " [motion]ia - inner argument
 " Typical uses:
 " daa - Delete an argument
