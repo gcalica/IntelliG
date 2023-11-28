@@ -4,13 +4,9 @@
 " Show Intention Actions, Reformat Code, Refactor, etc...
 let g:WhichKeyDesc_code_action                                                = "<leader>c +Code Actions"
 
-" Show hover info (best quick fix and error description)
-let g:WhichKeyDesc_code_action_show_hover_info                                = "<leader>cc Hover Info"
-map <leader>cc <Action>(ShowHoverInfo)
-
-" Show intention actions
-let g:WhichKeyDesc_code_action_show_intention_actions                         = "<leader>ci Intention Actions"
-map <leader>ci <Action>(ShowIntentionActions)
+" Show quick fixes
+let g:WhichKeyDesc_code_action_show_quick_fixes                               = "<leader>cc Quick Fixes"
+map <leader>cc <Action>(ShowIntentionActions)
 
 " Format code
 let g:WhichKeyDesc_code_action_format_code                                    = "<leader>cf Format Code"
