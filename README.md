@@ -1,11 +1,10 @@
 # IntelliG
 
 [//]: # (TODO put a screenshot/gif here showcase)
-This is my personal opionated [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) configuration. 
-Maps and categorizes many IntelliJ actions that also includes complete mapping descriptions via [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key).  
+This is my personal [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim) configuration. 
+Adds mappings and categorizes many IntelliJ actions which also includes complete mapping descriptions via [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key).  
 
-It used to be a single massive .ideavimrc file. But now that I'm publicly publishing it, I reorganized it be easier
-to customize if people wanted to use and build on top of my setup.
+It used to be a single massive .ideavimrc file. But now that I'm publicly publishing it, I reorganized it be easier to customize if people wanted to use and build on top of my setup.
 
 # Features
 * Mappings for many helpful and common IntelliJ workflow actions
