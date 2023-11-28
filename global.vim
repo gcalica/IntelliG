@@ -66,3 +66,4 @@ map <C-t> <Action>(ActivateTerminalToolWindow)
 let g:WhichKeyDesc_recent_projects                               = "<leader>p Recent Projects"
 map <leader>p <Action>(RecentProjectListGroup)
 
+" FIXME Recent Projects and Blackhole register does not initialize on startup. Only when you reload vimrc once does it work

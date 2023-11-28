@@ -7,7 +7,7 @@
 " See https://github.com/JetBrains/ideavim/wiki/ideajoin-examples
 set ideajoin
 
-" Not really sure if these are needed or how exactly they affect my setup, but I put them just incase
+" Not really sure if these are needed or how exactly they affect my setup, but I put them just in case
 sethandler <C-h> a:vim
 sethandler <C-j> a:vim
 sethandler <C-k> a:vim
