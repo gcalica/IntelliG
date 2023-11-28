@@ -4,12 +4,12 @@
 " View Hover Info, Quick Definition, Find Usages, etc..
 let g:WhichKeyDesc_view                                          = "<leader>v +View"
 
-" Shows hover info (includes quick documentation + if any, error description)
+" Shows hover info (includes quick documentation plus if any, the error description)
 let g:WhichKeyDesc_view_hover_info                               = "<leader>vv Hover Info"
 map <leader>vv <Action>(ShowHoverInfo)
 
 " Go to declaration
-let g:WhichKeyDesc_view_goto_declaration                         = "<leader>vd Goto Declaration"
+let g:WhichKeyDesc_view_goto_declaration                         = "<leader>vd Go to Declaration"
 map <leader>vd <Action>(GotoDeclaration)
 
 " Quick preview of the definition
