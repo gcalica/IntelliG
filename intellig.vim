@@ -35,10 +35,10 @@ source ~/.intellig/intellij/menus.vim
 " Code Actions - show intention actions, reformat code, refactor, etc...
 source ~/.intellig/intellij/code_actions.vim
 
-" Search, Find, Replace - classic find and replace, search everywhere, classes, files, actions, locations, etc...
+" Search, Find, Replace - find and replace, and search: everywhere, classes, files, actions, locations, etc...
 source ~/.intellig/intellij/searchfindreplace.vim
 
-" Files - open files
+" Files - open and search files
 source ~/.intellig/intellij/files.vim
 
 " View - view hover info, quick definition, find usages, etc..

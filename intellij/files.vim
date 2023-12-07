@@ -1,7 +1,7 @@
 """""""""
 " Files "
 """""""""
-" Open files
+" Open and search files
 let g:WhichKeyDesc_files                               = "<leader>f +Files"
 
 " Search File
