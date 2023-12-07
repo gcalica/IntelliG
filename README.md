@@ -106,6 +106,8 @@ I like to sometimes look at other people's configs and see which actions they ma
 TODO
 
 # Misc Tips
+* If you want to emulate using h/j/k/l when navigating through IntelliJ's menus and popups, you can change the keybindings:
+  * Settings -> Keymap -> Editor Actions -> Left/Down/Up/Right
 * Re-bind your Caps Lock key to function as your Ctrl key for easier press
 * I'm on a Mac and I use a neat software called [Fluor](https://github.com/Pyroh/Fluor). Depending on which application window is focused (i.e., IntelliJ), I can set it such that the Function keys actually function as the Fn + number keys rather than the Mac laptop actions such as turning up my screen brightness. Very useful to make it easier to use IntelliJ's Fn keybindings without having to type the Fn key.
 * If you like the code being centered on screen in Distraction-Free/Zen mode, you can actually have this behavior enabled outside of these view modes. 
