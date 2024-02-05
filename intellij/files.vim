@@ -26,3 +26,7 @@ map <leader>fl <Action>(RecentLocations)
 " TODO find action for Recently Changed Locations
 " let g:WhichKeyDesc_files_recent_locations_changed    = "<leader>fL Recently CHANGED Locations"
 " map <leader>fL <Action>(?)
+
+" Show navigation bar
+let g:WhichKeyDesc_files_navigation_bar                = "<leader>fn Navigation Bar"
+map <leader>fn <Action>(ShowNavBar)
