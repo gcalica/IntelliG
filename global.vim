@@ -19,10 +19,6 @@ map gl $
 map C ciw
 map D daw
 
-" Next/previous tab
-map <TAB> <Action>(NextTab)
-map <S-TAB> <Action>(PreviousTab)
-
 " Easier prefixing with blackhole register ("_)
     " Use case for blackhole register: deleting something while maintaining your current yanked code
     " Context: By default, yanking puts the selected text in the unnamed register ("").

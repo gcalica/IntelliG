@@ -22,6 +22,11 @@ source ~/.intellig/general_settings.vim
 " IdeaVim Settings - https://github.com/JetBrains/ideavim/wiki/set-commands
 source ~/.intellig/ideavim_settings.vim
 
+" Next actions - prefixed by the right square bracket ]
+source ~/.intellig/next.vim
+
+" Previous actions - prefixed by the left square bracket [
+source ~/.intellig/previous.vim
 "" ------------------------------------------------------------------------------------
 """""""""""""""""""""""""
 " Leader-based Mappings "
