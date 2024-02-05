@@ -30,3 +30,7 @@ map <leader>fl <Action>(RecentLocations)
 " Show navigation bar
 let g:WhichKeyDesc_files_navigation_bar                = "<leader>fn Navigation Bar"
 map <leader>fn <Action>(ShowNavBar)
+
+" Tab Switcher
+let g:WhichKeyDesc_files_tab_switcher                  = "<leader>ft Switcher"
+map <leader>ft <Action>(Switcher)

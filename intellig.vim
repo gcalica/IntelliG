@@ -49,10 +49,10 @@ source ~/.intellig/intellij/files.vim
 " View - view hover info, quick definition, find usages, etc..
 source ~/.intellig/intellij/view.vim
 
-" Tab Management & Navigation - navigate and manage editor tabs
-source ~/.intellig/intellij/tabs.vim
+" Tab Splits - navigate and manage tab splits
+source ~/.intellig/intellij/splits.vim
 
-" Window Management & Navigation - navigate and manage project/tool windows
+" Window Management & Navigation - navigate and manage project/tool/tab windows
 source ~/.intellig/intellij/windows.vim
 
 " Multiple Cursors - emulates the vim-multiple-cursors plugin with IntelliJ's builtin actions

@@ -36,7 +36,7 @@ adding keybindings.
     * `menus.vim` - mappings to various menus
     * `multiple_cursors.vim` - emulates the vim-multiple-cursors plugin with IntelliJ's builtin actions
     * `searchfindreplace.vim` - find and replace, and search: everywhere, classes, files, actions, locations, etc...
-    * `tabs.vim` - navigate and manage editor tabs
+    * `splits.vim` - navigate and manage tab splits 
     * `ui.vim` - clear search highlight, change colorscheme theme, toggle zen/fullscreen, etc...
     * `view.vim` - view hover info, quick definition, find usages, etc..
     * `windows.vim` - navigate and manage project/tool windows
