@@ -1,6 +1,6 @@
-"""""""""""
+"""""""""""""
 " IdeaVimRC "
-"""""""""""
+"""""""""""""
 " Keybinds for dealing with ~/.ideavimrc
 let g:WhichKeyDesc_ideavim                                       = "<leader>i +IdeaVim"
 
