@@ -10,5 +10,5 @@ let g:WhichKeyDesc_previous_tab = "[t Tab"
 map [t <Action>(PreviousTab)
 
 " Also mapped in splits.vim
-let g:WhichKeyDesc_previous_split = "<leader>[s Split"
-map <leader>[s <Action>(PrevSplitter)
+let g:WhichKeyDesc_previous_split = "[s Split"
+map [s <Action>(PrevSplitter)

@@ -32,5 +32,5 @@ let g:WhichKeyDesc_files_navigation_bar                = "<leader>fn Navigation 
 map <leader>fn <Action>(ShowNavBar)
 
 " Tab Switcher
-let g:WhichKeyDesc_files_tab_switcher                  = "<leader>ft Switcher"
+let g:WhichKeyDesc_files_tab_switcher                  = "<leader>ft Tab Switcher"
 map <leader>ft <Action>(Switcher)
