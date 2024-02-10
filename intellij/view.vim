@@ -16,6 +16,10 @@ map <leader>vd <Action>(GotoDeclaration)
 let g:WhichKeyDesc_view_quick_definition                         = "<leader>ve Quick Definition"
 map <leader>ve <Action>(QuickImplementations)
 
+" Show type info
+let g:WhichKeyDesc_view_type_info                                = "<leader>vt Type Info"
+map <leader>vt <Action>(ExpressionTypeInfo)
+
 " Show usages in a popup
 let g:WhichKeyDesc_show_usages                                   = "<leader>vu Show Usages (Popup)"
 map <leader>vu <Action>(ShowUsages)
