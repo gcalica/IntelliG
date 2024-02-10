@@ -5,11 +5,7 @@
 " Feel free to cherry pick which mappings you like here rather than importing this entire module
 
 " Ergonomic escape - other alternative keys I used in the past: jk, <C-j>
-" Note: In vim, Ctrl-[ and Esc perform the same action
-" Note: I am using <Ctrl-[> instead of <Esc> because I re-binded the native IntelliJ editor action "Escape" to
-" the same hotkey for my ergonomic escape (Ctrl-C). It introduced some annoying things where I had to do double Ctrl-C
-" if I wanted to escape both a popup window and exit to normal mode.
-map <C-c> <Ctrl-[>
+map <C-c> <Esc>
 
 " Easier navigation to start/end of line
 let g:WhichKeyDesc_goto_start_of_line = "gh Go to start of line"
