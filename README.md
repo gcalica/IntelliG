@@ -114,7 +114,8 @@ TODO
     * AceJump is a required plugin dependency to use EasyMotion. It has label jumping and different modes to initiate the jumping with.
     * EasyMotion is basically a vim actions supertset of AceJump. It uses AceJump's label jumping and introduces vim-based modes to initiate the jumping with.
   * If you just want a slightly better f/F, then use Sneak.
-  * If you want labels to jump to, use AceJump. It also makes sense to use this alongside Sneak.
+  * If you want labels to jump to, use AceJump.
+    * You could use this alongside sneak. 
   * If you want a fully featured cursor navigation and want to take advantage of its vim modes, use EasyMotion. 
     * But if you dont need 99% of the features of EasyMotion, then this is not necessary and you can just use AceJump (plus Sneak if you want too).
 * If you want to emulate using h/j/k/l when navigating through IntelliJ's menus and popups, you can change the keybindings:
