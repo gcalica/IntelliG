@@ -112,7 +112,7 @@ TODO
   * These three plugins try to achieve the same purpose, but with varying complexities.
     * Sneak is a slightly supercharged version of the regular f/F vim keys. No label jumping. 
     * AceJump is a required plugin dependency to use EasyMotion. It has label jumping and different modes to initiate the jumping with.
-    * EasyMotion is basically a vim actions supertset of AceJump. It uses AceJump's label jumping and introduces vim-based modes to initiate the jumping with.
+    * EasyMotion is basically a vim actions superset of AceJump. It uses AceJump's label jumping and introduces vim-based modes to initiate the jumping with.
   * If you just want a slightly better f/F, then use Sneak.
   * If you want labels to jump to, use AceJump.
     * You could use this alongside sneak. 
