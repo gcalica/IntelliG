@@ -21,8 +21,8 @@ map <leader>sR <Action>(ReplaceInPath)
 " Note: The Search Files is in ~/.intellig/intellij/files.vim
 
 " The all powerful Search Everywhere
-let g:WhichKeyDesc_sfr_search_everywhere                        = "<leader>ss Search Everywhere"
-map <leader>ss <Action>(SearchEverywhere)
+let g:WhichKeyDesc_sfr_search_everywhere                        = "<leader>se Search Everywhere"
+map <leader>se <Action>(SearchEverywhere)
 
 " Search Classes
 let g:WhichKeyDesc_sfr_search_class                             = "<leader>sc Search Classes"
@@ -33,8 +33,8 @@ let g:WhichKeyDesc_sfr_search_action                            = "<leader>sa Se
 map <leader>sa <Action>(GotoAction)
 
 " Search Symbol
-let g:WhichKeyDesc_sfr_search_symbol                            = "<leader>so Search Symbols"
-map <leader>so <Action>(GotoSymbol)
+let g:WhichKeyDesc_sfr_search_symbol                            = "<leader>ss Search Symbols"
+map <leader>ss <Action>(GotoSymbol)
 
 " Search text
 let g:WhichKeyDesc_sfr_search_text                              = "<leader>st Search Text"
