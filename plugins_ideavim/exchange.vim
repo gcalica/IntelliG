@@ -3,10 +3,10 @@
 """"""""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#exchange
 " Swap text around. Select two texts to swap around
-" cx[motion] - swap
-" cxx - swap entire line
-" X - swap selected text
-" cxc - clear selection
+"   cx[motion] - swap
+"   cxx - swap entire current line
+"   X - swap selected text
+"   cxc - clear selection
 set exchange
 
 "" Which-Key mapping descriptions

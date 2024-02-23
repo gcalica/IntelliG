@@ -80,43 +80,52 @@ source ~/.intellig/intellij/ui.vim
 source ~/.intellig/plugins_ideavim/which_key.vim
 
 " Indentation-based textobject
-" [motion]ii - select this indentation level
-" [motion]ai - includes above line
-" [motion]aI - include above and below lines
+"   [motion]ii - select this indentation level
+"   [motion]ai - includes above line
+"   [motion]aI - include above and below lines
 source ~/.intellig/plugins_ideavim/textobj_indent.vim
 
 " Arguments-based textobject
-" [motion]aa - an argument
-" [motion]ia - inner argument
+"   [motion]aa - an argument
+"   [motion]ia - inner argument
 " Typical uses:
-" daa - Delete an argument
-" cia - Change an argument
-" via - Select an argument
+"   daa - Delete an argument
+"   cia - Change an argument
+"   via - Select an argument
 source ~/.intellig/plugins_ideavim/argtextobj.vim
 
 " Swap text around. Select two texts to swap around
-" cx[motion] - swap
-" cxx - swap entire current line
-" X - swap selected text
-" cxc - clear selection
+"   cx[motion] - swap
+"   cxx - swap entire current line
+"   X - swap selected text
+"   cxc - clear selection
 source ~/.intellig/plugins_ideavim/exchange.vim
 
 " Change/delete/add surroundings
-" cs[motion] - change surrounding
-" ds[motion] - delete surrounding
-" ys[motion] - add surrounding
-" S - surround selected text
+"   cs[motion] - change surrounding
+"   ds[motion] - delete surrounding
+"   ys[motion] - add surrounding
+"   S - surround selected text
 source ~/.intellig/plugins_ideavim/surround.vim
 
 " Comment Lines
-" gc[motion] - comment
-" gcc - comment entire line
+"   gc[motion] - comment
+"   gcc - comment entire line
 source ~/.intellig/plugins_ideavim/commentary.vim
 
-" Required IntelliJ Plugin: https://github.com/AlexPl292/IdeaVim-EasyMotion
-" Required IntelliJ Plugin: https://plugins.jetbrains.com/plugin/7086-acejump
-" Quicker navigation, default prefix is mapleader
-source ~/.intellig/plugins_ideavim/easymotion.vim
+" Fully featured cursor navigation within a file
+"   Required IntelliJ Plugin: https://github.com/AlexPl292/IdeaVim-EasyMotion
+"   Required IntelliJ Plugin: https://plugins.jetbrains.com/plugin/7086-acejump
+" NOTE: I no longer use this plugin but I have left it in. Uncomment in "intellig.vim" to enable.
+"       See README.md under 'Misc Tips' for the differences between EasyMotion vs Sneak vs AceJump
+"       to determine if you really need this plugin.
+" source ~/.intellig/plugins_ideavim/easymotion.vim
+
+" Simpler cursor navigation within a file
+"   s{char}{char} - Sneak forward; type s followed by two characters
+"   S{char}{char} - Sneak backward; type S followed by two characters
+"   ; or , - Continue sneaking
+source ~/.intellig/plugins_ideavim/sneak.vim
 
 " https://github.com/JetBrains/ideavim/wiki/NERDTree-support
 " More interactive file system explorer

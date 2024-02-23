@@ -2,13 +2,13 @@
 " argtextobj "
 """"""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#argtextobj
-" Arguments as a textobject
-" [motion]aa - an argument
-" [motion]ia - inner argument
+" Arguments-based textobject
+"   [motion]aa - an argument
+"   [motion]ia - inner argument
 " Typical uses:
-" daa - Delete an argument
-" cia - Change an argument
-" via - Select an argument
+"   daa - Delete an argument
+"   cia - Change an argument
+"   via - Select an argument
 set argtextobj
 
 " List of comma-separated pairs where it searches arguments inside. Order of pairs matter

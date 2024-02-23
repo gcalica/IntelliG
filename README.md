@@ -60,8 +60,6 @@ adding keybindings.
 Which-Key if you want the popup menu of the keybindings. The rest are to your preference.
     * [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim)
     * [Which-Key](https://plugins.jetbrains.com/plugin/15976-which-key)
-    * [AceJump](https://plugins.jetbrains.com/plugin/7086-acejump) (required for EasyMotion)
-    * [EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion)
     * [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation) - only has one mapping
     * [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) - only has one mapping
 2. Clone the repository in your home directory:
@@ -83,7 +81,11 @@ TODO
 
 # Supported Plugins
 The following [IdeaVim plugins](https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#ideavim-plugins) are supported:
-* EasyMotion - simpler motion navigation
+* EasyMotion - quicker cursor navigation (disabled; uncomment in intellig.vim to enable)
+  * Required Plugins:
+    * [AceJump](https://plugins.jetbrains.com/plugin/7086-acejump)
+    * [EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion)
+* Sneak - simpler cursor navigation
 * NERDTree - file system explorer
 * surround - mappings to add, delete, and change surroundings of selected text
 * commentary - comment lines
@@ -106,6 +108,15 @@ I like to sometimes look at other people's configs and see which actions they ma
 TODO
 
 # Misc Tips
+* Which should I use: Sneak vs AceJump vs EasyMotion?
+  * These three plugins try to achieve the same purpose, but with varying complexities.
+    * Sneak is a slightly supercharged version of the regular f/F vim keys. No label jumping. 
+    * AceJump is a required plugin dependency to use EasyMotion. It has label jumping and different modes to initiate the jumping with.
+    * EasyMotion is basically a vim actions supertset of AceJump. It uses AceJump's label jumping and introduces vim-based modes to initiate the jumping with.
+  * If you just want a slightly better f/F, then use Sneak.
+  * If you want labels to jump to, use AceJump. It also makes sense to use this alongside Sneak.
+  * If you want a fully featured cursor navigation and want to take advantage of its vim modes, use EasyMotion. 
+    * But if you dont need 99% of the features of EasyMotion, then this is not necessary and you can just use AceJump (plus Sneak if you want too).
 * If you want to emulate using h/j/k/l when navigating through IntelliJ's menus and popups, you can change the keybindings:
   * Settings -> Keymap -> Editor Actions -> Left/Down/Up/Right
 * Re-bind your Caps Lock key to function as your Ctrl key for easier press

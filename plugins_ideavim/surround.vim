@@ -3,10 +3,10 @@
 """"""""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#surround
 " Change/delete/add surroundings
-" cs[motion] - change surrounding
-" ds[motion] - delete surrounding
-" ys[motion] - add surrounding
-" S - surround selected text
+"   cs[motion] - change surrounding
+"   ds[motion] - delete surrounding
+"   ys[motion] - add surrounding
+"   S - surround selected text
 set surround
 
 "" Which-Key mapping descriptions

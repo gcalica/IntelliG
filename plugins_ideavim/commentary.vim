@@ -3,8 +3,8 @@
 """"""""""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#commentary
 " Comment Lines
-" gc[motion] - comment
-" gcc - comment entire line
+"   gc[motion] - comment
+"   gcc - comment entire line
 set commentary
 
 "" Which-Key mapping descriptions

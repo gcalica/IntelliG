@@ -3,9 +3,9 @@
 """""""""""""""""""""
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins#vim-indent-object
 " Indentation-based textobject
-" [motion]ii - select this indentation level
-" [motion]ai - includes above line
-" [motion]aI - include above and below lines
+"   [motion]ii - select this indentation level
+"   [motion]ai - includes above line
+"   [motion]aI - include above and below lines
 set textobj-indent
 
 "" Which-Key mapping descriptions
