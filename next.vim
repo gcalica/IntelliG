@@ -16,6 +16,9 @@ map ]t <Action>(NextTab)
 let g:WhichKeyDesc_next_split                    = "]s Split"
 map ]s <Action>(NextSplitter)
 
+let g:WhichKeyDesc_next_method                   = "]m Method"
+map ]m <Action>(MethodDown)
+
 let g:WhichKeyDesc_next_bookmark                 = "]b Bookmark"
 map ]b <Action>(GotoNextBookmark)
 
