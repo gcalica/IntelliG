@@ -2,6 +2,7 @@
 " Tab Splits "
 """"""""""""""
 " Navigate and manage tab splits
+" Switch to split by direction mappings are located in global.vim
 let g:WhichKeyDesc_split                           = "<leader>t +Tab Splits"
 
 " Split right
@@ -22,13 +23,13 @@ map <leader>tB <Action>(MoveTabDown)
 
 " Next split
 " Also mapped in next.vim
-let g:WhichKeyDesc_split_next_split                = "<leader>tw NEXT split"
-map <leader>tw <Action>(NextSplitter)
+let g:WhichKeyDesc_split_next_split                = "<leader>tt NEXT split"
+map <leader>tt <Action>(NextSplitter)
 
 " Previous split
 " Also mapped in previous.vim
-let g:WhichKeyDesc_split_previous_split            = "<leader>tW PREVIOUS split"
-map <leader>tW <Action>(PrevSplitter)
+let g:WhichKeyDesc_split_previous_split            = "<leader>tT PREVIOUS split"
+map <leader>tT <Action>(PrevSplitter)
 
 " Move to other split
 let g:WhichKeyDesc_split_move_to_other_split       = "<leader>tm MOVE to OPPOSITE split"
@@ -46,22 +47,12 @@ map <leader>tU <Action>(UnsplitAll)
 let g:WhichKeyDesc_split_rotate_split              = "<leader>to Rotate Orientation"
 map <leader>to <Action>(ChangeSplitOrientation)
 
-" Switch to split by direction
-let g:WhichKeyDesc_split_switch_left               = "<leader>th GO to LEFT split"
-map <leader>th <C-w>h
-let g:WhichKeyDesc_split_switch_down               = "<leader>tj GO to DOWN split"
-map <leader>tj <C-w>j
-let g:WhichKeyDesc_split_switch_up                 = "<leader>tk GO to UP split"
-map <leader>tk <C-w>k
-let g:WhichKeyDesc_split_switch_right              = "<leader>tl GO to RIGHT split"
-map <leader>tl <C-w>l
-
 " Resizing the splits
-let g:WhichKeyDesc_split_stretch_left              = "<leader>tH STRETCH split LEFT"
-map <leader>tH <Action>(StretchSplitToLeft)
-let g:WhichKeyDesc_split_stretch_down              = "<leader>tJ STRETCH split DOWN"
-map <leader>tJ <Action>(StretchSplitToBottom)
-let g:WhichKeyDesc_split_stretch_up                = "<leader>tK STRETCH split UP"
-map <leader>tK <Action>(StretchSplitToTop)
-let g:WhichKeyDesc_split_stretch_right             = "<leader>tL STRETCH split RIGHT"
-map <leader>tL <Action>(StretchSplitToRight)
+let g:WhichKeyDesc_split_stretch_left              = "<leader>th STRETCH split LEFT"
+map <leader>th <Action>(StretchSplitToLeft)
+let g:WhichKeyDesc_split_stretch_down              = "<leader>tj STRETCH split DOWN"
+map <leader>tj <Action>(StretchSplitToBottom)
+let g:WhichKeyDesc_split_stretch_up                = "<leader>tk STRETCH split UP"
+map <leader>tk <Action>(StretchSplitToTop)
+let g:WhichKeyDesc_split_stretch_right             = "<leader>tl STRETCH split RIGHT"
+map <leader>tl <Action>(StretchSplitToRight)

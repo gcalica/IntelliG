@@ -35,11 +35,11 @@ noremap x "_x
 map <C-o> <Action>(Back)
 map <C-i> <Action>(Forward)
 
-" Extend Selection - one of my favorite keybinds before I learned vim motions
-" Cant be as specific compared to vim motions, but still very useful to quickly cycle through selection for less
-" mental burden when you just dont wanna think about what motion to press
-map <C-h> <Action>(EditorSelectWord)
-map <C-l> <Action>(EditorUnSelectWord)
+" Switch to split by direction
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 " Move code using h/j/k/l rather than IntelliJ's keybindings that uses arrow keys
 map <A-h> <Action>(MoveElementLeft)
