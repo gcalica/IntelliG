@@ -19,19 +19,3 @@ map <leader>bm <Action>(ToggleBookmarkWithMnemonic)
 " Rename bookmark
 let g:WhichKeyDesc_bookmark_rename                      = "<leader>br Rename Bookmark"
 map <leader>br <Action>(EditBookmark)
-
-" Next bookmark
-let g:WhichKeyDesc_bookmark_next                        = "<leader>bn Next Bookmark"
-map <leader>bn <Action>(GotoNextBookmark)
-
-" Next bookmark in current file
-let g:WhichKeyDesc_bookmark_next_in_current_file        = "<leader>bN Next Bookmark in CURRENT File"
-map <leader>bN <Action>(GotoNextBookmarkInEditor)
-
-" Previous bookmark
-let g:WhichKeyDesc_bookmark_previous                    = "<leader>bp Previous Bookmark"
-map <leader>bp <Action>(GotoPreviousBookmark)
-
-" Previous bookmark in current file
-let g:WhichKeyDesc_bookmark_previous_in_current_file    = "<leader>bP Previous Bookmark in CURRENT File"
-map <leader>bP <Action>(GotoPreviousBookmarkInEditor)

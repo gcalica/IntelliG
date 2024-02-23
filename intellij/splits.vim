@@ -21,16 +21,6 @@ map <leader>tb <Action>(SplitHorizontally)
 let g:WhichKeyDesc_split_and_move_below            = "<leader>tB Split and MOVE BELOW"
 map <leader>tB <Action>(MoveTabDown)
 
-" Next split
-" Also mapped in next.vim
-let g:WhichKeyDesc_split_next_split                = "<leader>tt NEXT split"
-map <leader>tt <Action>(NextSplitter)
-
-" Previous split
-" Also mapped in previous.vim
-let g:WhichKeyDesc_split_previous_split            = "<leader>tT PREVIOUS split"
-map <leader>tT <Action>(PrevSplitter)
-
 " Move to other split
 let g:WhichKeyDesc_split_move_to_other_split       = "<leader>tm MOVE to OPPOSITE split"
 map <leader>tm <Action>(MoveEditorToOppositeTabGroup)
