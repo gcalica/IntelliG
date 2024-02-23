@@ -10,7 +10,7 @@ map <C-c> <Esc>
 " Easier navigation to start/end of line
 let g:WhichKeyDesc_goto_start_of_line = "gh Go to start of line"
 map gh ^
-let g:WhichKeyDesc_goto_end_of_line = "gl Go to end of line"
+let g:WhichKeyDesc_goto_end_of_line   = "gl Go to end of line"
 map gl $
 
 " Faster change/delete of a word
@@ -24,7 +24,7 @@ map D daw
     " But at that location, you want to delete/change something first before pasting.
     " Problem is that using (d)elete/(c)hange key also puts deleted text in the unnamed register, overriding your yanked code.
     " You can delete instead into the blackhole register by doing "_d to keep your yanked code in the unnamed register
-let g:WhichKeyDesc_blackhole_register                            = "<leader>\' Black Hole Register"
+let g:WhichKeyDesc_blackhole_register = "<leader>\' Black Hole Register"
 map <leader>' "_
 
 " Deleting with "x" key puts it into blackhole register by default
@@ -57,7 +57,7 @@ map <CR> m`o<Esc>``
 map <C-t> <Action>(ActivateTerminalToolWindow)
 
 " Recent Projects
-let g:WhichKeyDesc_recent_projects                               = "<leader>p Recent Projects"
+let g:WhichKeyDesc_recent_projects    = "<leader>p Recent Projects"
 map <leader>p <Action>(RecentProjectListGroup)
 
 " FIXME Recent Projects and Blackhole register does not initialize on startup. Only when you reload vimrc once does it work
