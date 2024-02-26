@@ -11,7 +11,8 @@ map <C-c> <Esc>
 
 " Easier navigation
 map H ^
-map J 5j " NOTE: IdeaVim's smart join can be triggered using Ctrl + Shift + J
+" NOTE: IdeaVim's smart join can be triggered using Ctrl + Shift + J
+map J 5j
 map K 5k
 map L $
 

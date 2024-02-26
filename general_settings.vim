@@ -1,6 +1,8 @@
 """"""""""""""""""""
 " General Settings "
 """"""""""""""""""""
+" https://github.com/JetBrains/ideavim/wiki/set-commands
+
 " Leader key (default: Space)
 let mapleader = " "
 
@@ -25,6 +27,9 @@ set number
 
 " Show other line's numbers RELATIVE to your current position
 set relativenumber
+
+" Minimum number of lines above and below the cursor
+set scrolloff=10
 
 " Show current mode on the status line
 set showmode
