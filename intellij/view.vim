@@ -20,6 +20,10 @@ map <leader>ve <Action>(QuickImplementations)
 let g:WhichKeyDesc_view_type_info                                = "<leader>vt Type Info"
 map <leader>vt <Action>(ExpressionTypeInfo)
 
+" Quick type definition
+let g:WhichKeyDesc_view_type_definition                          = "<leader>vT Type Definition"
+map <leader>vT <Action>(QuickTypeDefinition)
+
 " Show usages in a popup
 let g:WhichKeyDesc_show_usages                                   = "<leader>vu Show Usages (Popup)"
 map <leader>vu <Action>(ShowUsages)
